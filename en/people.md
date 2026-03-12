@@ -1,0 +1,16 @@
+---
+layout: default
+title: People
+subtitle: People in Zhu Lab
+permalink: /en/people/
+lang: en
+---
+
+<h1>People</h1>
+
+<h3>Principal Investigator</h3>
+<ul>
+  <li><a href="/en/people/honglin_zhu/">Honglin Zhu, PhD</a> — Attending Physician, Associate Research Fellow, PhD Supervisor, Department of Rheumatology and Immunology, Xiangya Hospital, Central South University</li>
+</ul>
+
+<p>Other team members will be added in the future.</p>

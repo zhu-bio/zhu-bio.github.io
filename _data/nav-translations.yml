@@ -1,0 +1,33 @@
+# Navigation bar translations
+
+en:
+  site_title: "Zhu Lab"
+  Home: "Home"
+  People: "People"
+  Publications: "Publications"
+  News: "News"
+  Contact: "Contact"
+
+cn:
+  site_title: "朱红林课题组"
+  Home: "首页"
+  People: "人员"
+  Publications: "发表"
+  News: "新闻"
+  Contact: "联系"
+
+zh:
+  site_title: "朱红林课题组"
+  Home: "首页"
+  People: "人员"
+  Publications: "发表"
+  News: "新闻"
+  Contact: "联系"
+
+zh-CN:
+  site_title: "朱红林课题组"
+  Home: "首页"
+  People: "人员"
+  Publications: "发表"
+  News: "新闻"
+  Contact: "联系"

@@ -1,0 +1,67 @@
+---
+layout: default
+title: 联系我们
+permalink: /cn/contact/
+lang: cn
+---
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3>联系我们</h3>
+    </div>
+    <div class="panel-body">
+        <p><strong>朱红林，博士</strong><br>
+        中南大学湘雅医院风湿免疫科<br>
+        湖南省长沙市湘雅路87号，410078<br>
+        电话：0731-89753548 &nbsp; <br>
+        邮箱：<a href="mailto:honglinzhu@csu.edu.cn">honglinzhu@csu.edu.cn</a></p>
+        <hr>
+        <form id="contact-form" method="post" action="mailto:honglinzhu@csu.edu.cn" role="form" enctype="text/plain">
+            <div class="messages"></div>
+            <div class="controls">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_name">姓名 *</label>
+                            <input id="form_name" type="text" name="name" class="form-control" placeholder="请输入姓名 *" required="required" data-error="请填写姓名">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">邮箱 *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="请输入邮箱 *" required="required" data-error="请填写有效邮箱">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_need">主题</label>
+                            <input type="text" id="form_need" name="subject" class="form-control">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">留言 *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="请输入留言 *" rows="4" required="required" data-error="请填写留言"></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-send btn-github" value="发送">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-muted"><strong>*</strong> 为必填项。</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
