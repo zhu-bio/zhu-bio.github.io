@@ -12,7 +12,7 @@ use-site-title: true
         <div class="row">
             <div class="col-lg-3">
                 <p>
-                    <img src="/img/people/honglin_zhu.png" style="width: 230px; height: 230px; object-fit: cover; object-position: center; display: block; margin: 0 auto;" alt="Honglin Zhu">
+                    <img src="/img/people/honglin_zhu.png" style="width: 230px; height: 230px; object-fit: contain; object-position: center; display: block; margin: 0 auto;" alt="Honglin Zhu">
                 </p>
             </div>
             <div class="col-lg-9">
