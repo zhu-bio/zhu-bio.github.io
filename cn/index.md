@@ -12,8 +12,8 @@ use-site-title: true
         <div class="row">
             <div class="col-lg-3">
                 <p>
-                    <img src="/img/people/honglin_zhu.png" width="230" height="230" alt="朱红林">
-                </p>
+                    <img src="/img/people/honglin_zhu.png" style="width: 230px; height: 230px; object-fit: contain; object-position: center; display: block; margin: 0 auto;" alt="朱红林">
+                </p>                    
             </div>
             <div class="col-lg-9">
                 <p><strong>朱红林，博士</strong><br>
