@@ -52,7 +52,7 @@
       </ul>
     </div>
 
-	{% if page.image and (layout.show-avatar or page.show-avatar) %}
+	{% if page.image and (layout.show-avatar or page.show-avatar) and layout.name != 'people' %}
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
 	    <a href="{{ '' | absolute_url }}">
@@ -60,7 +60,7 @@
 		</a>
 	  </div>
 	</div>
-	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) %}
+	{% elsif site.avatar and (layout.show-avatar or page.show-avatar) and layout.name != 'people' %}
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
 	    <a href="{{ '' | absolute_url }}">
