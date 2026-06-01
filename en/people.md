@@ -57,8 +57,8 @@ lang: en
   .person-photo-small {
     width: 110px;
     height: 110px;
-    object-fit: cover;
-    object-position: center top;
+    object-fit: contain;
+    object-position: center;
     border-radius: 4px;
   }
 
