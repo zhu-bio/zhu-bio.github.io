@@ -40,11 +40,26 @@ lang: en
     align-items: center;
   }
 
+  .person-card-with-photo {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    gap: 16px;
+    align-items: center;
+  }
+
   .person-photo {
     width: 130px;
     height: 130px;
     object-fit: contain;
     object-position: center;
+  }
+
+  .person-photo-small {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 4px;
   }
 
   .person-name {
@@ -64,12 +79,14 @@ lang: en
   }
 
   @media (max-width: 640px) {
-    .person-card-featured {
+    .person-card-featured,
+    .person-card-with-photo {
       grid-template-columns: 1fr;
       text-align: center;
     }
 
-    .person-photo {
+    .person-photo,
+    .person-photo-small {
       margin: 0 auto;
     }
   }
@@ -93,15 +110,21 @@ lang: en
   <section class="people-section">
     <h2>Co-Principal Investigators</h2>
     <div class="people-grid">
-      <div class="person-card">
-        <h3 class="person-name">Hui Luo, M.D., Ph.D.</h3>
+      <div class="person-card person-card-with-photo">
+        <img class="person-photo-small" src="/img/people/hui_luo.jpg" alt="Hui Luo">
+        <div>
+          <h3 class="person-name">Hui Luo, M.D., Ph.D.</h3>
         <p class="person-role">Professor; Supervisor of Postdoctoral Fellows, Doctoral Students, and Master’s Students</p>
-        <p class="person-affiliation">Department of Rheumatology and Immunology, Xiangya Hospital, Central South University</p>
+          <p class="person-affiliation">Department of Rheumatology and Immunology, Xiangya Hospital, Central South University</p>
+        </div>
       </div>
-      <div class="person-card">
-        <h3 class="person-name">Sijia Liu</h3>
+      <div class="person-card person-card-with-photo">
+        <img class="person-photo-small" src="/img/people/sijia_liu.jpg" alt="Sijia Liu">
+        <div>
+          <h3 class="person-name">Sijia Liu</h3>
         <p class="person-role">Associate Professor; Supervisor of Master’s Students</p>
-        <p class="person-affiliation">Department of Rheumatology and Immunology, Xiangya Hospital, Central South University</p>
+          <p class="person-affiliation">Department of Rheumatology and Immunology, Xiangya Hospital, Central South University</p>
+        </div>
       </div>
     </div>
   </section>
