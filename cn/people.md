@@ -130,7 +130,7 @@ lang: cn
       <div class="person-card person-card-with-photo">
         <img class="person-photo-small" src="/img/people/hui_luo.jpg" alt="罗卉">
         <div>
-          <h3 class="person-name">罗卉，M.D., Ph.D.</h3>
+          <h3 class="person-name">罗卉，博士</h3>
           <p class="person-role">教授；博士后、博士生和硕士生导师</p>
           <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
         </div>
@@ -138,7 +138,7 @@ lang: cn
       <div class="person-card person-card-with-photo">
         <img class="person-photo-small" src="/img/people/sijia_liu.jpg" alt="刘思佳">
         <div>
-          <h3 class="person-name">刘思佳</h3>
+          <h3 class="person-name">刘思佳，博士</h3>
           <p class="person-role">副教授；硕士生导师</p>
           <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
         </div>
@@ -155,7 +155,7 @@ lang: cn
         <p class="person-affiliation">中南大学计算机学院</p>
       </div>
       <div class="person-card">
-        <h3 class="person-name">李宏东，博士</h3>
+        <h3 class="person-name">李洪东，博士</h3>
         <p class="person-role">教授；博士后、博士生和硕士生导师</p>
         <p class="person-affiliation">中南大学计算机学院</p>
       </div>
@@ -166,17 +166,17 @@ lang: cn
     <h2>团队成员</h2>
     <div class="people-grid">
       <div class="person-card">
-        <h3 class="person-name">肖艺智，M.D., Ph.D.</h3>
+        <h3 class="person-name">肖亦之，博士</h3>
         <p class="person-role">主治医师；副教授</p>
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
       <div class="person-card">
-        <h3 class="person-name">郭牧瑶，M.D., Ph.D.</h3>
+        <h3 class="person-name">郭慕瑶，博士</h3>
         <p class="person-role">主治医师；副教授</p>
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
       <div class="person-card">
-        <h3 class="person-name">黄晶，M.D., Ph.D.</h3>
+        <h3 class="person-name">黄靖，博士</h3>
         <p class="person-role">主治医师</p>
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
@@ -186,18 +186,18 @@ lang: cn
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
       <div class="person-card">
-        <h3 class="person-name">孟启明，M.D.</h3>
-        <p class="person-role">住院医师；医学博士研究生</p>
+        <h3 class="person-name">孟琦铭</h3>
+        <p class="person-role">博士生</p>
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
       <div class="person-card">
         <h3 class="person-name">何瑞敏</h3>
-        <p class="person-role">医学博士研究生</p>
+        <p class="person-role">博士生</p>
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
       <div class="person-card">
-        <h3 class="person-name">杨景淇</h3>
-        <p class="person-role">硕士研究生</p>
+        <h3 class="person-name">杨婧琪</h3>
+        <p class="person-role">硕士生</p>
         <p class="person-affiliation">中南大学湘雅医院风湿免疫科</p>
       </div>
     </div>
