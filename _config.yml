@@ -23,6 +23,7 @@ navbar-links:
   Home: ""
   People: "people"
   Publications: "publication"
+  "Awards & Honors": "awards-honors"
   News: "news"
   Contact: "contact"
 #  About Me: "aboutme"
