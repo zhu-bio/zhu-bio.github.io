@@ -22,7 +22,9 @@ lang: en
   .people-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-auto-rows: 1fr;
     gap: 16px;
+    align-items: stretch;
   }
 
   .person-card {
@@ -37,14 +39,19 @@ lang: en
     display: grid;
     grid-template-columns: 130px 1fr;
     gap: 20px;
-    align-items: center;
+    align-items: start;
   }
 
   .person-card-with-photo {
     display: grid;
     grid-template-columns: 110px 1fr;
     gap: 16px;
-    align-items: center;
+    align-items: start;
+  }
+
+  .person-card:not(.person-card-featured):not(.person-card-with-photo) {
+    display: flex;
+    flex-direction: column;
   }
 
   .person-photo {
@@ -70,10 +77,12 @@ lang: en
 
   .person-role {
     margin-bottom: 8px;
+    min-height: 44px;
     font-weight: 600;
   }
 
   .person-affiliation {
+    margin-top: auto;
     margin-bottom: 0;
     color: #555;
   }
@@ -83,6 +92,14 @@ lang: en
     .person-card-with-photo {
       grid-template-columns: 1fr;
       text-align: center;
+    }
+
+    .person-role {
+      min-height: 0;
+    }
+
+    .person-affiliation {
+      margin-top: 0;
     }
 
     .person-photo,
